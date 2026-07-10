@@ -33,3 +33,21 @@ transform:translateY(-2px);
 box-shadow:$shadow-md;
 
 }
+
+.btn-secondary{
+
+    background:transparent;
+    
+    border:2px solid white;
+    
+    color:white;
+    
+}
+    
+.btn-secondary:hover{
+    
+    background:white;
+    
+    color:$color-primary;
+    
+}

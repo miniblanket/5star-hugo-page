@@ -1,0 +1,37 @@
+<section class="hero">
+
+    <div class="hero-overlay"></div>
+  
+    <div class="container hero-content">
+  
+      <div class="hero-copy">
+  
+        <p class="hero-eyebrow">
+          {{ .Params.hero.eyebrow }}
+        </p>
+  
+        <h1>
+          {{ .Params.hero.heading }}
+        </h1>
+  
+        <p class="hero-text">
+          {{ .Params.hero.text }}
+        </p>
+  
+        <div class="hero-buttons">
+  
+          <a class="btn" href="{{ .Params.hero.primary.url }}">
+            {{ .Params.hero.primary.text }}
+          </a>
+  
+          <a class="btn btn-secondary" href="{{ .Params.hero.secondary.url }}">
+            {{ .Params.hero.secondary.text }}
+          </a>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  </section>
