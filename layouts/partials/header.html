@@ -1,9 +1,23 @@
 <header class="site-header">
-
-    <div class="container">
-
-        <h2>5 Star Background</h2>
-
+    <div class="container header-inner">
+  
+      <a class="logo" href="/">
+        <span>5</span> Star Background
+      </a>
+  
+      <nav class="main-nav" aria-label="Primary">
+        <ul class="nav-list">
+          {{ range site.Data.navigation.main }}
+            <li class="nav-item">
+              <a href="{{ .url }}">{{ .name }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+  
+      <a class="btn header-cta" href="{{ site.Data.navigation.cta.url }}">
+        {{ site.Data.navigation.cta.text }}
+      </a>
+  
     </div>
-
-</header>
+  </header>

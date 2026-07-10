@@ -1,0 +1,19 @@
+main:
+  - name: Home
+    url: /
+
+  - name: Services
+    url: /services/
+
+  - name: Industries
+    url: /industries/
+
+  - name: About
+    url: /about/
+
+  - name: Contact
+    url: /contact/
+
+cta:
+  text: Order Now
+  url: /contact/
