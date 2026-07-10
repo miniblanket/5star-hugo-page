@@ -1,0 +1,25 @@
+@use "../abstracts/variables" as *;
+
+.section-title {
+  max-width: 760px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.section-eyebrow {
+  color: $color-primary;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-weight: 700;
+  margin-bottom: .75rem;
+}
+
+.section-title h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+.section-title p {
+  color: $color-text-light;
+  font-size: 1.125rem;
+}

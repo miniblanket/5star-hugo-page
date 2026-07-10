@@ -1,0 +1,11 @@
+<div class="section-title">
+    {{ with .eyebrow }}
+      <p class="section-eyebrow">{{ . }}</p>
+    {{ end }}
+  
+    <h2>{{ .title }}</h2>
+  
+    {{ with .text }}
+      <p>{{ . }}</p>
+    {{ end }}
+  </div>
